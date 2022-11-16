@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+
+body {
+    background-color: #d5faff;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    text-align: center;
+}
+
+.container {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: inline;
+}
+
+.containerTable {
+    empty-cells: invisible;
+}
+
+.introPara {
+    position: relative;
+    margin: 2px;
+    top: 50%;
+    left: 2%;
+    width: 618px;
+    padding: 50px;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-fill-color: white;
+    font-size: 22px;
+    background: rgb(255, 152, 152);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.342);
+
+    transition: 0.5s ease 0s;
+}
+
+.introParaMid {
+    position: relative;
+    margin: 2px;
+    top: 50%;
+    left: 2%;
+    width: 618px;
+    height: 460px;
+    padding-top: 215px;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-fill-color: white;
+    font-size: 22px;
+    background: rgb(255, 152, 152);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.342);
+
+    transition: 0.5s ease 0s;
+}
+
+.introParaMid1 {
+    position: relative;
+    padding: 2px;
+    margin: auto;
+    top: 50%;
+    width: 99%;
+    font-family: 'Kanit', sans-serif;
+    -webkit-text-fill-color: white;
+    font-size: 30px;
+    background: rgb(255, 152, 152);
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 0.342);
+    transition: 0.5s ease 0s;
+}
+
+.introPara:hover {
+    transform: scale(1.09);
+    cursor: text;
+    z-index: 2;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 78, 141));
+}
+
+.introParaMid:hover {
+    transform: scale(1.19);
+    cursor: text;
+    z-index: 100;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 78, 141));
+}
+
+.introParaMid1:hover {
+    transform: scale(0.99);
+    cursor: text;
+    z-index: 3;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 78, 141));
+}
+
+.heading {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    background-color: rgba(0, 132, 255, 0.349);
+}
+
+.rest1Img {
+    margin-top: 60px;
+    width: 100%;
+    /* opacity: 0.8; */
+    box-shadow: 0px 0px 40px 10px #008f94;
+}
+
+.mainHeader {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.headerText {
+    display: inline-block;
+    font-family: serif;
+    font-size: 90px;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bolder;
+    transition: 0.6s ease 0s;
+    -webkit-text-fill-color: white;
+    /* -webkit-text-stroke-color: rgb(75, 207, 207);
+    -webkit-text-stroke-width: 0.1px; */
+    /* background-color: rgba(15, 159, 255, 0.301); */
+}
+
+.headerText:hover {
+    transform: scale(1.3);
+    /* transition: 0.6s ease 0s; */
+    cursor: pointer;
+    z-index: 2;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 78, 141));
+}
+
+.navbar {
+    position: fixed;
+    z-index: 100;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background-color: #24252A;
+}
+
+li,
+a,
+button {
+    font-family: 'Kanit', sans-serif;
+    font-size: 16px;
+    color: #ecf0f1;
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 2px 10%;
+}
+
+.logo {
+    width: 20%;
+    transition: 0.5s;
+    margin-right: auto;
+}
+
+.logo:hover {
+    filter: drop-shadow(0 0 0.75rem white);
+    cursor: pointer;
+}
+
+.nav_links {
+    list-style: none;
+}
+
+.nav_links li {
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav_links li a {
+    transition: all 0.3s ease 0s;
+}
+
+.nav_links li a:hover {
+    color: #0088a9;
+}
+
+button {
+    margin-left: 30px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+}
+
+button:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+}
+
+hr {
+    position: relative;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 2px;
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    height: 0px;
+    width: 30%;
+    opacity: 0.4;
+    transition: 0.5s;
+}
+
+hr:hover {
+    border-top-style: dotted;
+}
+
+table th {
+    font-size: 50px;
+    font-weight: 1000;
+    color: azure;
+}
+
+
+.restTable {
+    padding: 10px;
+    font-family: 'Kanit', sans-serif;
+    empty-cells: show;
+}
+
+.firstRestTxt {
+    margin: 0;
+    padding: 0;
+    font-size: 30px;
+}
+
+.firstRestImg {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+}
+
+.listRest {
+    margin: 30px;
+    padding: 10px;
+    background-color: #3A8891;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 1);
+}
+
+.listRest1 {
+    margin: 30px;
+    padding: 10px;
+    background-color: #51a0a8;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 0 15px 50px rgba(0, 0, 0, 1);
+}
+
+.blankCell {
+    width: 850px;
+}
+
+.firstRestTxt p {
+    text-align: left;
+    color: azure;
+}
+
+em {
+    font-weight: 700;
+    color: rgb(176, 255, 255);
+}
+
+form {
+    text-align: left;
+    font-family: 'Kanit', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+.subButton {
+    height: 50px;
+    width: 795px;
+    transition: 2s;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #1a695f;
+    color: rgb(162, 221, 221);
+    border: 0;
+}
+
+.subButton:hover {
+    height: 50px;
+    width: 795px;
+    transition: 0.5s;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: #114632;
+    color: rgb(200, 255, 255);
+    border: 100px;
+    cursor: pointer;
+    filter: drop-shadow(0 0 0.75rem rgb(24, 194, 109));
+}
+
+#sendButton {
+    text-align: left;
+}
+
+#yourNm {
+    font-size: 28px;
+    transition: 2s;
+}
+
+#yourNm:hover {
+    font-size: 28px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 94, 78));
+}
+
+#yourEm {
+    font-size: 28px;
+    transition: 2s;
+}
+
+#yourEm:hover {
+    font-size: 28px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 94, 78));
+}
+
+#yourMsg {
+    font-size: 28px;
+    transition: 2s;
+}
+
+#yourMsg:hover {
+    font-size: 28px;
+    transition: 0.5s;
+    filter: drop-shadow(0 0 0.75rem rgb(0, 94, 78));
+}
+
+.listRest2 {
+    padding: 50px;
+    background-color: #3A8891;
+    box-sizing: border-box;
+}
